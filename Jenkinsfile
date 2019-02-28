@@ -3,7 +3,6 @@ node('master'){
       checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/kunalkumar229/cass.git']]])
    }
     stage('docker'){
-      sh 'docker build -t cassandra .'
       sh 'docker images'
        sh 'docker rmi twenty48'
        sh 'docker rmi bc78f2a0a8a0'
