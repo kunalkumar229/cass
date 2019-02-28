@@ -4,6 +4,7 @@ node('master'){
    }
    stage('cmd'){
     sh 'echo running cassandra'
+      sh 'docker run -d -p 7000:7000'
    }
 
 }
