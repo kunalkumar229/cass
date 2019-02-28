@@ -13,6 +13,7 @@ node('master'){
        //sh 'docker rmi 8f2901f1dee9'
        //sh 'docker rmi 5384fa4aac57 '
        //sh 'docker rmi 5197b5298776'
+       sh 'docker images'
    
   }
 
