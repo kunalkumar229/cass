@@ -5,7 +5,7 @@ node('master'){
     stage('docker'){
       sh 'docker images'
        //sh 'docker rmi twenty48'
-       sh 'docker rm bc78f2a0a8a0'
+       sh 'docker rmi -f bc78f2a0a8a0'
        //sh 'docker rmi d88ae0607d57'
        //sh 'docker rmi 37b89fa822ae'
        //sh 'docker rmi 764f7b4e3323'
