@@ -1,0 +1,9 @@
+node('master'){
+   stage('checkout'){
+      
+   }
+   stage('cmd'){
+    sh 'echo running cassandra'
+   }
+
+}
