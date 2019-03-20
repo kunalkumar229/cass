@@ -1,4 +1,4 @@
-FROM alpine:3.9
+FROM alpine:edge
 USER root
 
 ENV UNO_URL https://raw.githubusercontent.com/dagwieers/unoconv/master/unoconv
