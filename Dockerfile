@@ -3,7 +3,6 @@ USER root
 
 ENV UNO_URL https://raw.githubusercontent.com/dagwieers/unoconv/master/unoconv
 
-ADD scripts /
 
 RUN apk update
 RUN apk fetch openjdk8-jre
