@@ -3,5 +3,5 @@ USER root
 
 
 RUN apk update
-RUN apk fetch openjdk8
-RUN apk add openjdk8
+RUN apk fetch openjdk8-jre
+RUN apk add openjdk8-jre
