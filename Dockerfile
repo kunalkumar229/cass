@@ -1,4 +1,4 @@
-FROM ansible007/test:master as java
+FROM ansible007/test:master
 
 USER root
 
